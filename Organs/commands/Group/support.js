@@ -26,7 +26,8 @@ https://chat.whatsapp.com/Ea20XGMkbW35OYiFv4X7ya
 *2) [ Ɇ𝖙𝖊𝖗𝖓𝖎𝖙ɏ ₵𝖆𝖘𝖎𝖓ø ] 🎰 :*
 https://chat.whatsapp.com/J1WfFPXtmzZGXFB59I0ETq
 `
-    await client.sendMessage(m.from,{video:{url:rae}, gifPlayback:true, caption: `*${pushName}* have a look in your DM`},{quoted:m})
+   
+  await client.sendMessage(m.from,{video:{url:rae}, gifPlayback:true, caption: `*${pushName}* have a look in your DM`},{quoted:m})
   await  client.sendMessage(m.sender,{image:{url:eternitylogogg},caption:lemo},{quoted:m})  
     }
 }
